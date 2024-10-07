@@ -1,0 +1,210 @@
+body {
+     margin: 0px;
+}
+
+.linebreak {
+     display: block;
+}
+
+.bandeau {
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #9f0a0f;;
+     height: 100px;
+     padding: 10px;
+     padding-top: 25px;
+     padding-bottom: 30px;
+     padding-right: 10px;
+}
+.burghairs {
+     width: 300px;
+     height: auto;
+}
+
+.infosgauche {
+     display: block;
+     margin-left: 0px;
+     color: #ffffff ;
+     margin-top: -15px;
+     margin-right: 40px;
+     
+}
+/* Informations Gauche bandeau*/
+
+.textlocale {
+     margin-bottom: -20px;
+}
+
+.lignesepare {
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+
+.title {
+     font-weight: 600;
+     font-size: 20px;
+     margin-bottom: -15px;
+     margin-left: 40px;
+}
+.navigation {
+     list-style-type: none;
+     display: block;
+     margin-left: 26px;
+     margin-top: 4px;
+}
+.infosgauche a {
+     text-decoration: none;
+     color: #ffffff;
+}
+.infonavig {
+     margin-left: 56px;
+}
+.navigation .lignesepare {
+     margin-left: -27px;
+     margin-top: -5px;
+}
+
+
+/* Informations droite */
+
+.infosdroite {
+     display: block;
+     margin-left: 40px;
+}
+
+.ouvert {
+font-family:cursive;
+font-weight: 700;
+font-size: 20px;
+color: #ffffff;
+margin-top: 0px;
+margin-bottom: 10px;
+}
+.telnum {
+     font-weight: 700;
+     font-size: 25px;
+     color: #bda477;
+     margin-left: 70px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+.infosdroite .lignesepare {
+     color: #ffffff;
+     margin-top: -5px;
+     margin-bottom: 5px;
+     margin-left: 30px;
+}
+
+
+/*Bandeau principal*/
+
+.CarteImage {
+     background-color: #1f1f1f;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 10px;
+}
+
+.burgerbutton {
+     margin-right: 40px
+}
+     .burgericon {
+          width: 100px;
+          height: auto;
+     }
+     .burgertext {
+          color: #ffffff;
+          font-size: 20px;
+          font-weight: 600;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          margin-top: 0px;
+          margin-left: 15px;
+     }
+
+
+.produitbutton {
+     margin-right: 40px
+}
+.produiticon {
+     width: 100px;
+     height: auto;
+     margin-left: 25px;
+}
+.produittext {
+     color: #ffffff;
+     font-size: 20px;
+     font-weight: 600;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     margin-top: 0px;
+}
+
+
+.sodasbutton {
+     margin-right: 40px
+}
+.sodaicon {
+     width: 100px;
+     height: auto;
+}
+.sodatext {
+     color: #ffffff;
+     font-size: 20px;
+     font-weight: 600;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     margin-top: 0px;
+     margin-left: 10px;
+}
+
+
+.patisseriebutton {
+     margin-right: 40px
+}
+.patisserieicon {
+     width: 100px;
+     height: auto;
+}
+.patisserietext {
+     color: #ffffff;
+     font-size: 20px;
+     font-weight: 600;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     margin-top: 0px;
+     margin-left: 5px;
+}
+
+.burgerfries {
+     width: 720px;
+     height: auto;
+     margin-left: 590px;
+     margin-top: 40px;
+}
+.imagemid {
+     background-color: #f1f1f1;
+     padding-bottom: 10px;
+}
+
+
+
+/*Deux paragraphes livraison et concept*/
+
+.mid {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+
+.linesep {
+     margin-top: 0px;
+     margin-bottom: 0px;
+     width: 500px;
+     height: auto;
+}
+.leconcept {
+     margin-top: 0px;
+     margin-bottom: 0px;
+     text-align: center;
+}
