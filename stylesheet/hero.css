@@ -9,175 +9,7 @@ body {
 .bold {
      font-weight: 600;
 }
-
-
-.bandeau {
-     display:flex;
-     justify-content: center;
-     align-items: center;
-     background-color: #9f0a0f;;
-     height: 100px;
-     padding: 10px;
-     padding-top: 25px;
-     padding-bottom: 30px;
-     padding-right: 10px;
-}
-.burghairs {
-     width: 300px;
-     height: auto;
-}
-
-.infosgauche {
-     display: block;
-     margin-left: 0px;
-     color: #ffffff ;
-     margin-top: -15px;
-     margin-right: 40px;
-     
-}
-/* Informations Gauche bandeau*/
-
-.textlocale {
-     margin-bottom: -20px;
-}
-
-.lignesepare {
-     margin-top: 0px;
-     margin-bottom: 0px;
-}
-
-.title {
-     font-weight: 600;
-     font-size: 20px;
-     margin-bottom: -15px;
-     margin-left: 40px;
-}
-.navigation {
-     list-style-type: none;
-     display: block;
-     margin-left: 26px;
-     margin-top: 4px;
-}
-.infosgauche a {
-     text-decoration: none;
-     color: #ffffff;
-}
-.infonavig {
-     margin-left: 56px;
-}
-.navigation .lignesepare {
-     margin-left: -27px;
-     margin-top: -5px;
-}
-
-
-/* Informations droite */
-
-.infosdroite {
-     display: block;
-     margin-left: 40px;
-}
-
-.ouvert {
-font-family:cursive;
-font-weight: 700;
-font-size: 20px;
-color: #ffffff;
-margin-top: 0px;
-margin-bottom: 10px;
-}
-.telnum {
-     font-weight: 700;
-     font-size: 25px;
-     color: #bda477;
-     margin-left: 70px;
-     margin-top: 0px;
-     margin-bottom: 0px;
-}
-.infosdroite .lignesepare {
-     color: #ffffff;
-     margin-top: -5px;
-     margin-bottom: 5px;
-     margin-left: 30px;
-}
-
-
-/*Bandeau principal*/
-
-.CarteImage {
-     background-color: #1f1f1f;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     padding-top: 10px;
-}
-
-.burgerbutton {
-     margin-right: 40px
-}
-     .burgericon {
-          width: 100px;
-          height: auto;
-     }
-     .burgertext {
-          color: #ffffff;
-          font-size: 20px;
-          font-weight: 600;
-          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          margin-top: 0px;
-          margin-left: 15px;
-     }
-
-
-.produitbutton {
-     margin-right: 40px
-}
-.produiticon {
-     width: 100px;
-     height: auto;
-     margin-left: 25px;
-}
-.produittext {
-     color: #ffffff;
-     font-size: 20px;
-     font-weight: 600;
-     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     margin-top: 0px;
-}
-
-
-.sodasbutton {
-     margin-right: 40px
-}
-.sodaicon {
-     width: 100px;
-     height: auto;
-}
-.sodatext {
-     color: #ffffff;
-     font-size: 20px;
-     font-weight: 600;
-     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     margin-top: 0px;
-     margin-left: 10px;
-}
-
-
-.patisseriebutton {
-     margin-right: 40px
-}
-.patisserieicon {
-     width: 100px;
-     height: auto;
-}
-.patisserietext {
-     color: #ffffff;
-     font-size: 20px;
-     font-weight: 600;
-     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     margin-top: 0px;
-     margin-left: 5px;
-}
+/*Fiche CSS Header*/
 
 .cheescake {
      width: 1080px;
@@ -189,22 +21,39 @@ margin-bottom: 10px;
      background-color: #f1f1f1;
      padding-bottom: 10px;
 }
+.inverted-commas {
+     height: 100px;
+     width: auto;
+}
+.commentaire {
+     position: sticky;
+     z-index: 1;
+     margin-top: -400px;
+     margin-left: 50px;
+     left: 60px;
+     color: #000000;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 25px;
+     font-style: italic;
+}
 
+.antisticky {
+     padding-bottom: 200px;
+}
 
 
 /*Deux paragraphes livraison et concept*/
 
 .mid {
      display: flex;
-     justify-content: center;
+     justify-content: space-evenly;
      align-items: center;
      margin-top: 0px;
      margin-bottom: 0px;
 }
 
 .linesep {
-     margin-top: -100px;
-     margin-bottom: -100px;
+     margin-top: 10px;
      width: 500px;
      height: auto;
 }
@@ -251,10 +100,10 @@ margin-bottom: 10px;
      height: auto;
 }
 .linesep2 {
-     margin-top: -100px;
-     margin-bottom: -130px;
+     margin-top: 10px;
      width: 500px;
      height: auto;
+     margin-left: 5px;
 }
 
 .footer {
