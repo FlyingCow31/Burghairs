@@ -1,5 +1,6 @@
 body {
      margin: 0px;
+     overflow-x: hidden;
 }
 
 .linebreak {
@@ -256,6 +257,9 @@ margin-bottom: 10px;
      height: auto;
 }
 
+.footer {
+     margin-bottom: -100px;
+}
 
 
 
