@@ -1,0 +1,25 @@
+.infosgauche a:hover {
+     color: #e2a954;
+     text-decoration: underline;
+}
+.linksfooter a:hover {
+     color: #dd9324;
+     text-decoration: underline;
+}
+.burgerbutton :hover, .produitbutton :hover, .sodasbutton :hover, .patisseriebutton :hover{
+     text-decoration: underline;
+     color: #b4781c;
+}
+.leconcept a:hover {
+     text-decoration: underline;
+     color: #dd9324;
+}
+
+.lalivraison a:hover {
+     text-decoration: underline;
+     color: #dd9324;
+}
+
+.buttonmenu :hover {
+     text-decoration: underline;
+}
