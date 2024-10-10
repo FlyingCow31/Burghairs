@@ -101,15 +101,13 @@ margin-bottom: 10px;
      justify-content: center;
      align-items: center;
      padding-top: 13px;
-     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.384); /* add shadow underneath */
+     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.384); /* add shadow underneath */
      position: relative;
      z-index: 3;
 }
 
 .burgerbutton {
      margin-right: 40px;
-     background-color: #dd9324;
-     padding: 9px;
 }
      .burgericon {
           width: 100px;
@@ -123,24 +121,17 @@ margin-bottom: 10px;
           margin-top: 0px;
           margin-left: 15px;
      }
-.menuon {
-     position: relative;
-     z-index: 4;
-     margin-left: 640px;
-     margin-bottom: 2px;
-     width: 118px;
-     height: auto;
-     background-color: #ececec;
-}
 
 
 .produitbutton {
-     margin-right: 40px
+     margin-right: 40px;
 }
 .produiticon {
      width: 100px;
      height: auto;
-     margin-left: 25px;
+     margin-left: 0px;
+     padding-left: 8px;
+     padding-right: 6px;
 }
 .produittext {
      color: #ffffff;
@@ -148,11 +139,16 @@ margin-bottom: 10px;
      font-weight: 600;
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      margin-top: 0px;
+     margin-left: 17px;
 }
 
 
 .sodasbutton {
-     margin-right: 40px
+     margin-right: 40px;
+     background-color: #dd9324;
+     padding-left: 9px;
+     padding-right: 9px;
+     padding-top: 10px;
 }
 .sodaicon {
      width: 100px;
@@ -169,7 +165,7 @@ margin-bottom: 10px;
 
 
 .patisseriebutton {
-     margin-right: 40px
+     margin-right: 40px;
 }
 .patisserieicon {
      width: 100px;
@@ -182,6 +178,17 @@ margin-bottom: 10px;
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      margin-top: 0px;
      margin-left: 5px;
+}
+
+
+.menuon {
+     position: relative;
+     z-index: 4;
+     margin-left: 950px;
+     margin-bottom: 2px;
+     width: 118px;
+     height: auto;
+     background-color: #ececec;
 }
 
 
@@ -214,7 +221,7 @@ margin-bottom: 10px;
 }
 
 .burgerbacon {
-     width: 130px;
+     width: 90px;
      height: auto;
 }
 .tableburgerbacon {
@@ -297,3 +304,4 @@ margin-bottom: 10px;
      display: flex;
      margin-top: 25px;
 }
+
