@@ -1,0 +1,61 @@
+body {
+     margin: 0px;
+     overflow-x: hidden;
+}
+
+.bold {
+     font-weight: 600;
+}
+
+.background {
+     background-color: #f1f1f1;
+     padding-top: 30px;
+     padding-bottom: 10px;
+}
+
+.titleconcept1 {
+     text-align: center;
+     margin-top: 20px;
+     font-size: 45px;
+     color: #4c4a50;
+     margin-bottom: 0px;
+}
+.linesep {
+     width: 500px;
+     height: auto;
+     margin-top: 0px;
+     margin-left: 700px;
+     margin-bottom: 30px;
+}
+
+
+
+/*Text*/
+.text {
+     text-align: left;
+     font-size: 17px;
+}
+
+.linebrake {
+     display: block;
+     margin-top: 5px;
+}
+
+.titleconcept {
+     color: #dd9324;
+     font-size: 19px;
+     font-weight: 600;
+}
+
+.flexcontainer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 100px;
+}
+
+
+.notreconceptimg {
+     border-radius: 10px;
+     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.411);
+}
